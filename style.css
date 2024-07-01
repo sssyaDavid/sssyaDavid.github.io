@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .section {
-    margin: 20px 0;
+    margin: 24px 0; /* 设置页边距 */
     padding: 10px 0;
 }
 
@@ -112,7 +112,7 @@ nav a:hover {
 
 .divider {
     border-top: 1px solid #ccc;
-    margin: 20px 0;
+    margin: 24px 0; /* 设置页边距 */
 }
 
 /* 页脚样式 */
