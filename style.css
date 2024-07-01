@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .section {
-    margin: 24px; /* 设置页边距 */
+    margin: 24px 10%; /* 设置页边距 */
     padding: 24px; /* 设置内边距 */
     border: 1px solid #ddd; /* 增加边框以便于视觉区分 */
     background-color: #fff; /* 设置背景色 */
@@ -114,7 +114,7 @@ nav a:hover {
 
 .divider {
     border-top: 1px solid #ccc;
-    margin: 24px 0; /* 设置页边距 */
+    margin: 24px 10%; /* 设置页边距 */
 }
 
 /* 页脚样式 */
