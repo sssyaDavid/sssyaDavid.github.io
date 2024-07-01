@@ -36,38 +36,50 @@
         nav a:hover {
             text-decoration: underline;
         }
-        .profile {
+        .container {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
             justify-content: center;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 20px;
-            border-radius: 8px;
+        }
+        .profile {
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            margin-right: 20px;
         }
         .profile img {
             border-radius: 50%;
             width: 150px;
             height: 150px;
             object-fit: cover;
-            margin-right: 20px;
         }
         .profile-info {
-            max-width: 600px;
+            margin-top: 10px;
         }
         .profile-info h1 {
-            margin-top: 0;
+            margin: 10px 0 0 0;
         }
         .profile-info p {
             margin: 5px 0;
         }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .details {
+            flex: 2;
+            max-width: 600px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section li {
+            margin: 10px 0;
         }
         footer {
             text-align: center;
@@ -82,15 +94,6 @@
         <h1>David Zhan</h1>
         <p>(540) 824-8501 • <a href="mailto:davidz0121@vt.edu" style="color: #fff;">davidz0121@vt.edu</a></p>
     </header>
-    <div class="profile">
-        <img src="david.png" alt="David Zhan">
-        <div class="profile-info">
-            <h1>David Zhan</h1>
-            <p>TA for CS 2104</p>
-            <p>Participate DSSL Lab</p>
-            <p>Virginia Polytechnic Institute and State University</p>
-        </div>
-    </div>
     <nav>
         <a href="#education">Education</a>
         <a href="#research">Research Experience</a>
@@ -98,18 +101,35 @@
         <a href="#service">Academic Service</a>
         <a href="#contact">Contact</a>
     </nav>
-    <section id="education">
-        <h2>Education</h2>
-        <h3>Virginia Polytechnic Institute and State University, Blacksburg, VA</h3>
-        <p>2023 – 2024 Participate Virginia Tech Systems & Storage Laboratory (DSSL)</p>
-        <p>Advisor: Dr. Ali R Butt</p>
-        <p>I conducted several experiments on computer memory, which are detailed in Research Experience<sup>1</sup>. Dr. Ali Butt is a Professor of Computer Science at Virginia Tech, an ACM Distinguished Member, and Associate Department Head for Faculty Development.</p>
-        <p>2023 – 2024 Follow Dr. Sehrish Basir Nizamani to conduct some AI experiments</p>
-        <p>Advisor: Dr. Sehrish Basir Nizamani</p>
-        <p>I conducted several experiments related to AI, which are detailed in Research Experience<sup>2</sup>. Dr. Sehrish Basir Nizamani, a Collegiate Assistant Professor of Computer Science at Virginia Tech with a Ph.D. in Information Technology, specializes in Information Systems, Human-Computer Interaction, and Usability Studies.</p>
-        <p>2023 Fall TA for CS 2104</p>
-        <p>Advisor: Dr. Siwei Cao</p>
-    </section>
+    <div class="container">
+        <div class="profile">
+            <img src="david.png" alt="David Zhan">
+            <div class="profile-info">
+                <h1>David Zhan</h1>
+                <p>TA for CS 2104</p>
+                <p>Department of Computer Science</p>
+                <p>Virginia Polytechnic Institute and State University</p>
+            </div>
+        </div>
+        <div class="details">
+            <div class="section" id="interests">
+                <h2>Interests</h2>
+                <ul>
+                    <li>1. a</li>
+                    <li>2. a</li>
+                    <li>3. a</li>
+                </ul>
+            </div>
+            <div class="section" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>1. a</li>
+                    <li>2. a</li>
+                    <li>3. a</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <section id="research">
         <h2>Research Experience</h2>
         <h3>Virginia Tech Systems & Storage Laboratory (DSSL)</h3>
