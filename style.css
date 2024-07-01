@@ -39,18 +39,15 @@ nav a:hover {
 
 /* 容器样式 */
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 /* 个人简介样式 */
 .profile {
-    flex: 1;
-    max-width: 300px;
     text-align: center;
-    margin-right: 20px;
+    padding: 20px 0;
 }
 
 .profile img {
@@ -66,23 +63,24 @@ nav a:hover {
 
 .profile-info h1 {
     margin: 10px 0 0 0;
+    font-size: 32px;
 }
 
 .profile-info p {
     margin: 5px 0;
+    color: #666;
 }
 
 /* 详细信息样式 */
 .details {
-    flex: 2;
-    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .section {
-    margin: 24px 10%; /* 设置页边距 */
-    padding: 24px; /* 设置内边距 */
-    border: 1px solid #ddd; /* 增加边框以便于视觉区分 */
-    background-color: #fff; /* 设置背景色 */
+    margin: 20px 0;
 }
 
 .section h2 {
@@ -99,22 +97,21 @@ nav a:hover {
 
 .section li {
     margin: 10px 0;
-    display: flex;
-    align-items: flex-start;
+    line-height: 1.6;
 }
 
 .section .title {
-    flex: 1;
     font-weight: bold;
 }
 
 .section .content {
-    flex: 3;
+    margin-top: 10px;
+    color: #666;
 }
 
 .divider {
     border-top: 1px solid #ccc;
-    margin: 24px 10%; /* 设置页边距 */
+    margin: 40px 0;
 }
 
 /* 页脚样式 */
