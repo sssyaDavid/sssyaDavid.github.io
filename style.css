@@ -2,8 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 24;
-    padding: 0;
+    margin: 24px; /* 设置整个页面的外边距 */
+    padding: 0; 
     background-color: #f4f4f4;
 }
 
@@ -85,7 +85,7 @@ nav a:hover {
 
 .section h2 {
     font-size: 24px;
-    margin: 24px 0;
+    margin: 0;
     padding-bottom: 10px;
     border-bottom: 2px solid #333;
 }
