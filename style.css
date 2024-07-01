@@ -2,8 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px 0;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
 }
 
@@ -42,6 +42,7 @@ nav a:hover {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    padding: 20px 0;
 }
 
 /* 个人简介样式 */
@@ -97,15 +98,17 @@ nav a:hover {
 
 .section li {
     margin: 10px 0;
-    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section .title {
+    flex-basis: 30%;
     font-weight: bold;
 }
 
 .section .content {
-    margin-top: 10px;
+    flex-basis: 70%;
     color: #666;
 }
 
