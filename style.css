@@ -45,10 +45,24 @@ nav a:hover {
     padding: 20px 0;
 }
 
-/* 个人简介样式 */
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.additional-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.additional-info p {
+    margin: 0;
+}
+
 .profile {
     text-align: center;
     padding: 20px 0;
+    flex: 2;
 }
 
 .profile img {
