@@ -1,4 +1,4 @@
-
+/* 全局样式 */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,7 +7,7 @@ body {
     background-color: #f4f4f4;
 }
 
-
+/* 头部样式 */
 header {
     background-color: #333;
     color: #fff;
@@ -19,6 +19,7 @@ header h1 {
     margin: 0;
 }
 
+/* 导航栏样式 */
 nav {
     background: #444;
     color: #fff;
@@ -36,7 +37,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
+/* 容器样式 */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +45,7 @@ nav a:hover {
     padding: 20px;
 }
 
+/* 个人简介样式 */
 .profile {
     flex: 1;
     max-width: 300px;
@@ -67,5 +69,56 @@ nav a:hover {
 }
 
 .profile-info p {
-    margin: 5px
+    margin: 5px 0;
+}
+
+/* 详细信息样式 */
+.details {
+    flex: 2;
+    max-width: 600px;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section li {
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.section .title {
+    flex: 1;
+    font-weight: bold;
+}
+
+.section .content {
+    flex: 3;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }

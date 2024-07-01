@@ -69,10 +69,13 @@
         }
         .section {
             margin: 20px 0;
+            padding: 10px 0;
         }
         .section h2 {
+            font-size: 24px;
+            margin: 0;
+            padding-bottom: 10px;
             border-bottom: 2px solid #333;
-            padding-bottom: 5px;
         }
         .section ul {
             list-style-type: none;
@@ -80,6 +83,19 @@
         }
         .section li {
             margin: 10px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+        .section .title {
+            flex: 1;
+            font-weight: bold;
+        }
+        .section .content {
+            flex: 3;
+        }
+        .divider {
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
         }
         footer {
             text-align: center;
@@ -106,8 +122,7 @@
             <img src="david.png" alt="David Zhan">
             <div class="profile-info">
                 <h1>David Zhan</h1>
-                <p>TA for CS 2104</p>
-                <p>Department of Computer Science</p>
+                <p>TA for CS2104</p>
                 <p>Virginia Polytechnic Institute and State University</p>
             </div>
         </div>
@@ -130,37 +145,74 @@
             </div>
         </div>
     </div>
-    <section id="research">
+    <div class="divider"></div>
+    <div class="section" id="research">
         <h2>Research Experience</h2>
-        <h3>Virginia Tech Systems & Storage Laboratory (DSSL)</h3>
-        <p>As a member of the Virginia Tech Systems & Storage Laboratory (DSSL), under the guidance of Dr. Ali Butt and in collaboration with Yuze Li, I completed an experiment focused on optimizing memory access in Python code. By implementing code-level optimizations, we significantly enhanced the utilization efficiency of both DRAM and XRAM. This involved adjusting the code to optimize memory allocation and access patterns, thereby fully leveraging the high bandwidth of DRAM and the low latency of XRAM, ultimately resulting in substantial performance improvements.</p>
-        <h3>Previous Institution/Organization, City, ST</h3>
-        <p>Piazza is widely used at our school for student-teacher communication. Our analysis shows that around 65% of student questions are basic concepts, and we've identified some platform limitations. To improve this, we plan to create a new website with three features: using OpenAI to guide students step-by-step, providing similar past questions and answers, and helping students find relevant YouTube instructional videos.</p>
-    </section>
-    <section id="publications">
-        <h2>Publications</h2>
-        <p>David Zhan, Barton Hou and Instructor: Dr. Sehrish Basir Nizamani. <em>Leveraging Piazza as a Repository for Previously Solved Problems: Enhancing Student Learning Through Access to Historical Questions and Answers.</em> Present and speech at the 2024 VTURCS, Blacksburg, Virginia, April 2024.</p>
-    </section>
-    <section id="service">
-        <h2>Academic Service</h2>
-        <p>As a student continually learning about the social and technological advancements in computer science, I have volunteered for various CS-related experiments. I aim to gain hands-on understanding of the different directions in CS, enabling me to identify and pursue my passion for future research.</p>
         <ul>
-            <li>Motion Sickness Study Research: Participated in a study led by Dam Abhraneil on the use of car simulators for motion sickness. Acted as a motion sickness patient and conducted various experiments to understand simulator interactions.</li>
-            <li>Effects of Music on Driving Performance Research: Took part in an experiment by Fang Ziming investigating how changes in external sounds affect drivers' state and emotions using a car simulator.</li>
-            <li>Use OpenAI Countering Hate Speech Research: Joined a study by Ding Xiaohan on responding to discriminatory remarks online. Used a specially designed website to practice responses and gained insights into web programming and design.</li>
-            <li>Virtual Reality Research: Participated in a study organized by Christos Lougiakis involving virtual reality glasses. Engaged in simulation experiments like repairing a virtual garage door, learning about advanced virtual interaction.</li>
-            <li>Robot Escape Room Research: Engaged in an experiment by Dong Jia, where I interacted with a robot providing prompts to escape a room. The experience taught me about decision-making and human-robot interaction.</li>
+            <li>
+                <div class="title">Virginia Tech Systems & Storage Laboratory (DSSL)</div>
+                <div class="content">As a member of the Virginia Tech Systems & Storage Laboratory (DSSL), under the guidance of Dr. Ali Butt and in collaboration with Yuze Li, I completed an experiment focused on optimizing memory access in Python code. By implementing code-level optimizations, we significantly enhanced the utilization efficiency of both DRAM and XRAM. This involved adjusting the code to optimize memory allocation and access patterns, thereby fully leveraging the high bandwidth of DRAM and the low latency of XRAM, ultimately resulting in substantial performance improvements.</div>
+            </li>
+            <li>
+                <div class="title">Previous Institution/Organization, City, ST</div>
+                <div class="content">Piazza is widely used at our school for student-teacher communication. Our analysis shows that around 65% of student questions are basic concepts, and we've identified some platform limitations. To improve this, we plan to create a new website with three features: using OpenAI to guide students step-by-step, providing similar past questions and answers, and helping students find relevant YouTube instructional videos.</div>
+            </li>
         </ul>
-    </section>
-    <section id="contact">
+    </div>
+    <div class="divider"></div>
+    <div class="section" id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                <div class="title">Publication 1</div>
+                <div class="content">David Zhan, Barton Hou and Instructor: Dr. Sehrish Basir Nizamani. <em>Leveraging Piazza as a Repository for Previously Solved Problems: Enhancing Student Learning Through Access to Historical Questions and Answers.</em> Present and speech at the 2024 VTURCS, Blacksburg, Virginia, April 2024.</div>
+            </li>
+        </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="section" id="service">
+        <h2>Academic Service</h2>
+        <ul>
+            <li>
+                <div class="title">Service 1</div>
+                <div class="content">Motion Sickness Study Research: Participated in a study led by Dam Abhraneil on the use of car simulators for motion sickness. Acted as a motion sickness patient and conducted various experiments to understand simulator interactions.</div>
+            </li>
+            <li>
+                <div class="title">Service 2</div>
+                <div class="content">Effects of Music on Driving Performance Research: Took part in an experiment by Fang Ziming investigating how changes in external sounds affect drivers' state and emotions using a car simulator.</div>
+            </li>
+            <li>
+                <div class="title">Service 3</div>
+                <div class="content">Use OpenAI Countering Hate Speech Research: Joined a study by Ding Xiaohan on responding to discriminatory remarks online. Used a specially designed website to practice responses and gained insights into web programming and design.</div>
+            </li>
+            <li>
+                <div class="title">Service 4</div>
+                <div class="content">Virtual Reality Research: Participated in a study organized by Christos Lougiakis involving virtual reality glasses. Engaged in simulation experiments like repairing a virtual garage door, learning about advanced virtual interaction.</div>
+            </li>
+            <li>
+                <div class="title">Service 5</div>
+                <div class="content">Robot Escape Room Research: Engaged in an experiment by Dong Jia, where I interacted with a robot providing prompts to escape a room. The experience taught me about decision-making and human-robot interaction.</div>
+            </li>
+        </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="section" id="contact">
         <h2>Contact</h2>
-        <p>David Zhan</p>
-        <p>Virginia Tech</p>
-        <p>305 N Knollwood Dr.</p>
-        <p>Blacksburg, Virginia 24060</p>
-        <p>(540) 824-8501</p>
-        <p><a href="mailto:davidz0121@vt.edu">davidz0121@vt.edu</a></p>
-    </section>
+        <ul>
+            <li>
+                <div class="title">Address</div>
+                <div class="content">305 N Knollwood Dr., Blacksburg, Virginia 24060</div>
+            </li>
+            <li>
+                <div class="title">Phone</div>
+                <div class="content">(540) 824-8501</div>
+            </li>
+            <li>
+                <div class="title">Email</div>
+                <div class="content"><a href="mailto:davidz0121@vt.edu">davidz0121@vt.edu</a></div>
+            </li>
+        </ul>
+    </div>
     <footer>
         <p>&copy; 2024 David Zhan</p>
     </footer>
