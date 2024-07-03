@@ -10,7 +10,11 @@ body {
 
 /* 头部样式 */
 header {
-    padding: 10px;
+    background-image: url('background.png'); /* 设置背景图片 */
+    background-size: cover; /* 确保背景图片覆盖整个头部 */
+    background-position: center; /* 居中背景图片 */
+    color: #fff;
+    padding: 20px 10px; /* 调整内边距 */
     display: flex;
     justify-content: space-between;
     align-items: center;
