@@ -58,9 +58,15 @@ nav a:hover {
     padding: 20px 0;
 }
 
+/* profile-wrapper 样式 */
 .profile-wrapper {
     display: flex;
     align-items: center;
+    background-image: url('background1.png'); /* 设置背景图片 */
+    background-size: cover; /* 确保背景图片覆盖整个容器 */
+    background-position: center; /* 居中背景图片 */
+    padding: 20px;
+    border-radius: 10px; /* 可选，增加圆角 */
 }
 
 .additional-info {
