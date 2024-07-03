@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-    color: #1E90FF; /* 设置为蓝色 */
+    color: #333; /* 设置为黑色 */
     text-decoration: none;
     margin: 0 15px;
 }
