@@ -33,14 +33,14 @@ header {
 
 /* 导航栏样式 */
 nav {
-    color: #fff; /* 设置为黑色 */
+    color: #fff; 
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 nav a {
-    color: #333; /* 设置为黑色 */
+    color: #fff; 
     text-decoration: none;
     margin: 0 20px;
     align-items: center;
