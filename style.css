@@ -67,6 +67,8 @@ nav a:hover {
     background-image: url('background1.png'); /* 设置背景图片 */
     background-size: cover; /* 确保背景图片覆盖整个容器 */
     background-position: center; /* 居中背景图片 */
+    padding: 20px;
+    border-radius: 10px; /* 可选，增加圆角 */
     align-items: center; /* 垂直居中 */
 }
 
@@ -83,8 +85,8 @@ nav a:hover {
 .profile {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
 }
 
 .profile img {
