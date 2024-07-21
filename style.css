@@ -68,28 +68,11 @@ nav a:hover {
     align-items: center; /* 垂直居中 */
 }
 
-.additional-info {
-    flex: 1;
-    padding-right: 20px;
-}
-
-.additional-info p {
-    margin: 0;
-    text-align:left;
-}
-
 .profile {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-}
-
-.profile img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
 }
 
 .profile-info {
@@ -111,6 +94,23 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.social-icons a:hover {
+    color: #2d4373;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 20px; /* 左边距 */
+}
+
+.additional-info p {
+    color: #333;
+    text-align: justify;
 }
 
 /* 详细信息样式 */
