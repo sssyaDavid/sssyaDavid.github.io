@@ -62,48 +62,40 @@ nav a:hover {
 .profile-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #95d1ff;
+    align-items: center;
     padding: 20px;
-    align-items: center; /* 垂直居中 */
-}
-
-.profile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    border-radius: 10px; /* 可选，增加圆角 */
+    background-color: #fff; /* 设置白色背景 */
 }
 
 .profile-info {
     text-align: left; /* 左对齐 */
     margin-right: 20px; /* 右边距 */
+    width: 60%; /* 调整宽度 */
 }
 
 .profile-info h1 {
     margin: 10px 0;
     font-size: 32px;
+    color: #fff; /* 设置白色字体 */
 }
 
 .profile-info p {
     margin: 5px 0;
-    color: #fff;
+    color: #fff; /* 设置白色字体 */
 }
 
 .social-icons {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 3px
+    align-items: center; /* 水平居中对齐 */
+    margin-left: 2px; /* 减少左边距 */
 }
 
 .social-icons .share-text {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: #fff; /* 设置白色字体 */
-}
-
-.social-icons a:hover {
-    color: #2d4373;
 }
 
 .social-icons a {
@@ -118,10 +110,10 @@ nav a:hover {
 }
 
 .profile-img {
-    width: 300px;
-    height: 300px;
+    width: 300px; /* 增加图片宽度 */
+    height: 300px; /* 增加图片高度 */
     object-fit: cover;
-    margin-left: 3px; /* 左边距 */
+    margin-right: 2px; /* 减小左边距 */
 }
 
 .additional-info p {
