@@ -4,16 +4,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #333; /* 设置为黑色背景 */
-    color: #fff; /* 设置为白色字体 */
+    background-color: #fff;
+    color: #fff; 
 }
 
 /* 头部样式 */
 header {
-    background-image: url('background.png'); /* 设置背景图片 */
-    background-size: cover; /* 确保背景图片覆盖整个头部 */
-    background-position: center; /* 居中背景图片 */
-    color: #fff;
+    background-color: #ffffff;
+    color: #333;
     padding: 20px 10px; /* 调整内边距 */
     display: flex;
     justify-content: space-between;
@@ -64,9 +62,7 @@ nav a:hover {
 .profile-wrapper {
     display: flex;
     justify-content: space-between;
-    background-image: url('background1.png'); /* 设置背景图片 */
-    background-size: cover; /* 确保背景图片覆盖整个容器 */
-    background-position: center; /* 居中背景图片 */
+    background-color: aqua;
     padding: 20px;
     border-radius: 10px; /* 可选，增加圆角 */
     align-items: center; /* 垂直居中 */
