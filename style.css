@@ -64,7 +64,6 @@ nav a:hover {
     justify-content: space-between;
     background-color: #95d1ff;
     padding: 20px;
-    border-radius: 10px; /* 可选，增加圆角 */
     align-items: center; /* 垂直居中 */
 }
 
