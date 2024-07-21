@@ -10,7 +10,7 @@ body {
 
 /* 头部样式 */
 header {
-    background-color: #ffffff;
+    background-color: #005587;
     color: #333;
     padding: 20px 10px; /* 调整内边距 */
     display: flex;
@@ -62,7 +62,7 @@ nav a:hover {
 .profile-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #91cdfc;
     padding: 20px;
     border-radius: 10px; /* 可选，增加圆角 */
     align-items: center; /* 垂直居中 */
