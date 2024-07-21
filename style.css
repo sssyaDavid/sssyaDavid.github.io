@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    color: #fff; 
+    color: #333;
 }
 
 /* 头部样式 */
@@ -33,14 +33,14 @@ header {
 
 /* 导航栏样式 */
 nav {
-    color: #fff; 
+    color: #fff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 nav a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     margin: 0 20px;
     align-items: center;
@@ -62,21 +62,22 @@ nav a:hover {
 .profile-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #95d1ff;
+    align-items: center;
     padding: 20px;
-    align-items: center; /* 垂直居中 */
+    border-radius: 10px; /* 可选，增加圆角 */
+    background-color: #95d1ff;
 }
 
 .profile {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    width: 100%;
 }
 
 .profile-info {
     text-align: left; /* 左对齐 */
-    margin-right: 5px; /* 右边距 */
+    margin-right: 20px; /* 右边距 */
+    flex: 1;
 }
 
 .profile-info h1 {
@@ -86,31 +87,26 @@ nav a:hover {
 
 .profile-info p {
     margin: 5px 0;
-    color: #fff;
+    color: #333;
 }
 
 .social-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
 }
 
 .social-icons .share-text {
     font-size: 13px;
     margin-bottom: 5px;
-    color: #fff; /* 设置白色字体 */
-}
-
-.social-icons a:hover {
-    color: #2d4373;
+    color: #333;
 }
 
 .social-icons a {
     color: #3b5998;
     font-size: 24px;
-    margin: 0px 0;
+    margin: 5px 0;
     text-decoration: none;
 }
 
@@ -119,11 +115,10 @@ nav a:hover {
 }
 
 .profile-img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
-    margin-left: 30px; /* 左边距 */
-    margin-right: 2px;
+    margin-left: 20px; /* 左边距 */
 }
 
 .additional-info p {
@@ -202,5 +197,6 @@ footer {
     width: 50%; /* 根据需要调整图片宽度 */
     height: 50%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
+    display: block;
+    margin: auto;
 }
-
