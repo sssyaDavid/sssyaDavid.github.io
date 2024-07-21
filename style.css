@@ -33,7 +33,7 @@ header {
 
 /* 导航栏样式 */
 nav {
-    color: #333; /* 设置为黑色 */
+    color: #fff; /* 设置为黑色 */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -62,7 +62,7 @@ nav a:hover {
 .profile-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #007fe0;
+    background-color: #269efa;
     padding: 20px;
     border-radius: 10px; /* 可选，增加圆角 */
     align-items: center; /* 垂直居中 */
