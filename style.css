@@ -92,7 +92,21 @@ nav a:hover {
 .social-icons {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-right: 20px; /* 右边距 */
+}
+
+.social-icons .share-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff; /* 设置白色字体 */
+}
+
+.social-icons a {
+    color: #3b5998;
+    font-size: 24px;
+    margin: 5px 0;
+    text-decoration: none;
 }
 
 .social-icons a:hover {
@@ -100,10 +114,10 @@ nav a:hover {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px; /* 增加图片宽度 */
+    height: 200px; /* 增加图片高度 */
     object-fit: cover;
-    margin-left: 20px; /* 左边距 */
+    margin-left: 10px; /* 减小左边距 */
 }
 
 .additional-info p {
