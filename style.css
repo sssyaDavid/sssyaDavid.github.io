@@ -82,9 +82,10 @@ nav a:hover {
 }
 
 .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 20px 0;
-    flex: 2;
 }
 
 .profile img {
@@ -95,7 +96,8 @@ nav a:hover {
 }
 
 .profile-info {
-    margin-top: 10px;
+    text-align: left; /* 左对齐 */
+    margin-right: 20px; /* 右边距 */
 }
 
 .profile-info h1 {
