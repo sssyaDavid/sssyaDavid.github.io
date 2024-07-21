@@ -93,7 +93,13 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 30px
+    margin-left: 20px
+}
+
+.social-icons .share-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff; /* 设置白色字体 */
 }
 
 .social-icons a:hover {
