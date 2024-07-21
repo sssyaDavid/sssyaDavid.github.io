@@ -63,7 +63,7 @@ nav a:hover {
 /* profile-wrapper 样式 */
 .profile-wrapper {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     background-image: url('background1.png'); /* 设置背景图片 */
     background-size: cover; /* 确保背景图片覆盖整个容器 */
     background-position: center; /* 居中背景图片 */
@@ -78,6 +78,7 @@ nav a:hover {
 
 .additional-info p {
     margin: 0;
+    text-align:left;
 }
 
 .profile {
@@ -178,4 +179,10 @@ footer {
     width: 50%; /* 根据需要调整图片宽度 */
     height: 50%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
