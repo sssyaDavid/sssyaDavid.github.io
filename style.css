@@ -195,8 +195,8 @@ footer {
 
 /* 新增的 News 样式 */
 #news img {
-    width: 50%; /* 根据需要调整图片宽度 */
-    height: 50%; /* 保持图片比例 */
+    width: 30%; /* 根据需要调整图片宽度 */
+    height: 30%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
     display: block;
     margin: auto;
