@@ -235,8 +235,8 @@ footer {
 }
 
 .poster-img {
-    width: 20%; /* 根据需要调整图片宽度 */
-    height: 20%; /* 保持图片比例 */
+    width: 30%; /* 根据需要调整图片宽度 */
+    height: 30%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
     display: block;
     margin: auto;
@@ -253,7 +253,7 @@ footer {
 }
 
 .education-img {
-    width: 20%; /* 设置图片宽度 */
-    height: 20%; /* 保持图片比例 */
+    width: 30%; /* 设置图片宽度 */
+    height: 30%; /* 保持图片比例 */
     margin-left: 20px; /* 添加左边距 */
 }
