@@ -233,3 +233,11 @@ footer {
     margin-right: 20px;
     color: #333;
 }
+
+#poster img {
+    width: 30%; /* 根据需要调整图片宽度 */
+    height: 30%; /* 保持图片比例 */
+    border-radius: 10px; /* 可选，增加圆角 */
+    display: block;
+    margin: auto;
+}
