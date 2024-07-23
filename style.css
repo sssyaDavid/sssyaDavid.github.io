@@ -235,9 +235,25 @@ footer {
 }
 
 .poster-img {
-    width: 10%; /* 根据需要调整图片宽度 */
-    height: 10%; /* 保持图片比例 */
+    width: 20%; /* 根据需要调整图片宽度 */
+    height: 20%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
     display: block;
     margin: auto;
+}
+
+/* 容器样式 */
+.education-content {
+    display: flex;
+    align-items: flex-start; /* 调整垂直对齐方式 */
+}
+
+.education-content ul {
+    flex: 1; /* 确保 ul 元素占据剩余空间 */
+}
+
+.education-img {
+    width: 20%; /* 设置图片宽度 */
+    height: 20%; /* 保持图片比例 */
+    margin-left: 20px; /* 添加左边距 */
 }
