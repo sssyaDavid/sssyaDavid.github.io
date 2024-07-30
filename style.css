@@ -261,12 +261,12 @@ footer {
 }
 
 .video {
-    max-width: 50%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 .video video {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
