@@ -257,3 +257,14 @@ footer {
     height: 30%; /* 保持图片比例 */
     margin-left: 20px; /* 添加左边距 */
 }
+
+.video {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.video video {
+    width: 50%;
+    height: auto;
+}
