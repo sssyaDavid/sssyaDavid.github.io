@@ -259,14 +259,14 @@ footer {
 }
 
 .video {
-    max-width: 70%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 .video video {
-    width: 70%;
-    height: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .activities-content {
