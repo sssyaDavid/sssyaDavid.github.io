@@ -27,7 +27,7 @@ header {
 
 .profile-name h1 {
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -42,7 +42,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     align-items: center;
 }
 
