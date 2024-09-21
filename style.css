@@ -44,6 +44,7 @@ nav a {
     text-decoration: none;
     margin: 0 20px;
     align-items: center;
+    font-size: 14px;
 }
 
 nav a:hover {
@@ -83,11 +84,12 @@ nav a:hover {
 
 .profile-info h1 {
     margin: 10px 0;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .profile-info p {
     margin: 5px 0;
+    font-size: 20px;
     color: #333;
 }
 
