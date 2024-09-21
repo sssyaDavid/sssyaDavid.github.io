@@ -294,3 +294,21 @@ footer {
     margin-bottom: 5px; /* 调整为更小的下边距，默认可能是更大的 */
     line-height: 1.2; /* 设置较小的行高，让内容更加紧凑 */
 }
+
+.content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.content {
+    flex: 1; /* 让内容占据剩余空间 */
+    margin-right: 20px; /* 给内容和视频之间留出空间 */
+}
+
+.research-video {
+    width: 300px; /* 视频宽度，根据需求调整 */
+    height: auto; /* 让高度根据宽度自动调整 */
+    border-radius: 10px; /* 可选，给视频增加圆角 */
+}
