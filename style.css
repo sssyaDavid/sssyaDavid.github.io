@@ -312,3 +312,9 @@ footer {
     height: auto; /* 让高度根据宽度自动调整 */
     border-radius: 10px; /* 可选，给视频增加圆角 */
 }
+
+.title {
+    font-weight: bold; /* 突出显示标题 */
+    display: block; /* 让标题独占一行 */
+    margin-bottom: 10px; /* 标题与下面内容之间的间距 */
+}
