@@ -66,8 +66,12 @@ nav a:hover {
     align-items: center;
     padding: 20px;
     border-radius: 10px; /* 可选，增加圆角 */
-    background-color: #95d1ff;
+    background-image: url('background1.png'); /* 使用背景图片 */
+    background-size: cover; /* 背景图片覆盖容器 */
+    background-position: center; /* 背景图片居中显示 */
+    background-repeat: no-repeat; /* 防止背景图片重复 */
 }
+
 
 .profile {
     display: flex;
