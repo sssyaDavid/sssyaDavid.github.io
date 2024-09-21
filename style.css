@@ -215,7 +215,7 @@ footer {
     color: #333;
 }
 
-#swimming img {
+#skills img {
     width: 30%; /* 根据需要调整图片宽度 */
     height: 30%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
@@ -223,15 +223,16 @@ footer {
     margin: auto;
 }
 
-/* 新增的 News 样式 */
-.swimming-content {
+.skills-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* 确保图片和文本的顶部对齐 */
+    margin-top: 20px;
 }
 
-.swimming-description {
-    flex: 1;
-    margin-right: 20px;
+/* 控制文本部分的样式 */
+.skills-description {
+    flex: 1; /* 让文本部分占据剩余的可用空间 */
+    margin-right: 20px; /* 给文本和图片之间留出空间 */
     color: #333;
 }
 
