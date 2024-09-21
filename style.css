@@ -93,7 +93,7 @@ nav a:hover {
 
 .profile-info p {
     margin: 5px 0;
-    color: #333;
+    color: #ffffff;
 }
 
 .social-icons {
@@ -110,14 +110,14 @@ nav a:hover {
 }
 
 .social-icons a {
-    color: #3b5998;
+    color: #ffffff;
     font-size: 24px;
     margin: 5px 0;
     text-decoration: none;
 }
 
 .social-icons a:hover {
-    color: #2d4373;
+    color: #ffffff;
 }
 
 .profile-img {
