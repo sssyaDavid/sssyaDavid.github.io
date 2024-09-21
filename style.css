@@ -289,3 +289,8 @@ footer {
     height: auto;
     border-radius: 10px;
 }
+
+#contact ul li {
+    margin-bottom: 5px; /* 调整为更小的下边距，默认可能是更大的 */
+    line-height: 1.2; /* 设置较小的行高，让内容更加紧凑 */
+}
