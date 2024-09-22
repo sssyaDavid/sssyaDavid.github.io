@@ -304,3 +304,28 @@ footer {
     display: block; /* 让标题独占一行 */
     margin-bottom: 10px; /* 标题与下面内容之间的间距 */
 }
+
+/* Footer section with social icons in a row */
+footer.footer-section {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* Footer text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-section .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.footer-section .footer-icons a {
+    color: white; /* White icon color */
+    font-size: 24px; /* Adjust icon size */
+    text-decoration: none;
+}
+
+.footer-section .footer-icons a:hover {
+    color: #ccc; /* Change icon color on hover */
+}
