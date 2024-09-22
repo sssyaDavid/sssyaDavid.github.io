@@ -1,307 +1,268 @@
-/* 全局样式 */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Zhan's Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Styling for the social icons at the top (still in a column) */
+        .social-icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Space between the icons */
+            margin-bottom: 10px; /* Adjust the spacing between icons and text */
+        }
 
-/* 头部样式 */
-header {
-    background-color: #00456d;
-    color: #fff;
-    padding: 20px 10px; /* 调整内边距 */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        .social-icons a {
+            color: white; /* Adjust icon color if necessary */
+            font-size: 24px; /* Adjust icon size */
+            text-decoration: none; /* Remove underline from links */
+        }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
+        .social-icons a:hover {
+            color: #ccc; /* Change icon color on hover */
+        }
 
-.profile-name h1 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: bold;
-}
+        /* Styling for the footer social icons (in a row) */
+        .footer-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Space between the icons */
+            margin-bottom: 10px; /* Adjust spacing */
+        }
 
-/* 导航栏样式 */
-nav {
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+        .footer-icons a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+        }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
-    align-items: center;
-    font-size: 14px;
-}
+        .footer-icons a:hover {
+            color: #ccc;
+        }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* 容器样式 */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px 0;
-}
-
-/* profile-wrapper 样式 */
-.profile-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-radius: 10px; /* 可选，增加圆角 */
-    background-image: url('background1.png'); /* 使用背景图片 */
-    background-size: cover; /* 背景图片覆盖容器 */
-    background-position: center; /* 背景图片居中显示 */
-    background-repeat: no-repeat; /* 防止背景图片重复 */
-}
-
-
-.profile {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.profile-info {
-    text-align: left; /* 左对齐 */
-    margin-left: 20px;
-    margin-right: 20px; /* 右边距 */
-    flex: 1;
-    color: #ffffff;
-}
-
-.profile-info h1 {
-    margin: 10px 0;
-    font-size: 28px;
-}
-
-.profile-info p {
-    margin: 5px 0;
-    color: #ffffff;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.social-icons .share-text {
-    font-size: 13px;
-    margin-bottom: 5px;
-    color: #ffffff;
-}
-
-.social-icons a {
-    color: #ffffff;
-    font-size: 24px;
-    margin: 5px 0;
-    text-decoration: none;
-}
-
-.social-icons a:hover {
-    color: #ffffff;
-}
-
-.profile-img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin-left: 20px; /* 左边距 */
-}
-
-.additional-info p {
-    color: #ffffff;
-    text-align: justify;
-}
-
-/* 详细信息样式 */
-.details {
-    padding: 20px;
-    background-color: #fff;
-    color: #333; /* 设置为黑色字体 */
-    margin: 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.section {
-    margin: 20px 0;
-}
-
-.section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section h2 {
-    font-size: 24px;
-    margin: 0 0 10px 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #333;
-}
-
-.section .right-aligned {
-    margin: 0;
-    padding-bottom: 10px;
-    border-bottom: none;
-}
-
-.section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.section li {
-    margin: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section .title {
-    flex-basis: 100%;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.section .content {
-    flex-basis: 100%;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.divider {
-    border-top: 1px solid #ccc;
-    margin: 40px 0;
-}
-
-/* 页脚样式 */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-}
-
-#skills img {
-    width: 30%; /* 根据需要调整图片宽度 */
-    height: 30%; /* 保持图片比例 */
-    border-radius: 10px; /* 可选，增加圆角 */
-    display: block;
-    margin: auto;
-}
-
-.skills-content {
-    display: flex;
-    align-items: flex-start; /* 确保图片和文本的顶部对齐 */
-    margin-top: 20px;
-}
-
-/* 控制文本部分的样式 */
-.skills-description {
-    flex: 1; /* 让文本部分占据剩余的可用空间 */
-    margin-right: 20px; /* 给文本和图片之间留出空间 */
-    color: #333;
-}
-
-.poster-img {
-    width: 30%; /* 根据需要调整图片宽度 */
-    height: 30%; /* 保持图片比例 */
-    border-radius: 10px; /* 可选，增加圆角 */
-    display: block;
-    margin: auto;
-}
-
-/* 容器样式 */
-.education-content {
-    display: flex;
-    align-items: flex-start; /* 调整垂直对齐方式 */
-}
-
-.education-content ul {
-    flex: 1; /* 确保 ul 元素占据剩余空间 */
-}
-
-.education-img {
-    width: 30%; /* 设置图片宽度 */
-    height: 30%; /* 保持图片比例 */
-    margin-left: 20px; /* 添加左边距 */
-}
-
-.video {
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.video video {
-    width: 50%;
-    height: 50%;
-}
-
-.activities-content {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-.activities-description {
-    flex: 1;
-    margin-right: 20px;
-    color: #333;
-    text-align: left;
-}
-
-.activities-img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-}
-
-#contact ul li {
-    margin-bottom: 5px; /* 调整为更小的下边距，默认可能是更大的 */
-    line-height: 1.2; /* 设置较小的行高，让内容更加紧凑 */
-}
-
-.content-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-.content {
-    flex: 1; /* 让内容占据剩余空间 */
-    margin-right: 20px; /* 给内容和视频之间留出空间 */
-}
-
-.research-video {
-    width: 300px; /* 视频宽度，根据需求调整 */
-    height: auto; /* 让高度根据宽度自动调整 */
-    border-radius: 10px; /* 可选，给视频增加圆角 */
-}
-
-.title {
-    font-weight: bold; /* 突出显示标题 */
-    display: block; /* 让标题独占一行 */
-    margin-bottom: 10px; /* 标题与下面内容之间的间距 */
-}
+        footer {
+            background-color: #333; /* Footer background color */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="profile-name">
+                <h1>David Zhan</h1>
+            </div>
+            <nav>
+                <a href="#Education">Education</a>
+                <a href="#research">Research Experience</a>
+                <a href="#Service and Activities">Service and Activities</a>
+                <a href="#Honor and Awards">Honors and Awards</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="profile-wrapper">
+            <div class="profile">
+                <div class="profile-info">
+                    <h1>David Zhan</h1>
+                    <p>• Lead and Founder for Piazza AI Model Team (2024 Spring – Present)</p>
+                    <p>• Intern Participated in Virginia Tech Digital Library Research Laboratory (2024 Fall – Present)</p>
+                    <p>• Intern Participated in Virginia Tech Distributed Systems & Storage Laboratory (DSSL) (2023 Fall – 2024 Summer)</p>
+                    <p>• TA for CS 2104 (2023 Fall)</p>
+                </div>
+            </div>
+            <img src="david.png" alt="David Zhan" class="profile-img">
+            <div class="social-icons">
+                <span class="share-text">Share</span>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/david-zhan-15162a31b/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:davidz0121@vt.edu" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="details">
+            <div class="section" id="Education">
+                <div class="section-header">
+                    <h2>Education</h2>
+                </div>
+                <div class="education-content">
+                    <ul class="Education">
+                        <li>• Virginia Tech, US, B.S. Computer Science (2021 – 2025)</li>
+                        <li>• ST Joseph High School, CT, (2017-2021)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section" id="research">
+                <div class="section-header">
+                    <h2>Research Experience</h2>
+                </div>
+                <ul>
+                    <li class="research-item">
+                        <div>
+                            <span class="title">Piazza AI Model Team:</span>
+                        </div>
+                        <span class="content">
+                            <p>• Role: Team Lead </p>
+                            <p>• Objective: Transform Piazza by integrating AI models with YouTube videos to enhance student engagement and provide rapid responses to diverse queries. </p>
+                            <p>• Achievements: Currently showcasing the project at VTURCS, with significant support from faculty members. The project aims to revolutionize the way students interact with post-class discussion tools.</p>
+                        </span>
+                    </li>
+                    <li class="research-item">
+                        <div class="content-wrapper">
+                            <div class="content">
+                                <span class="title">Virginia Tech Digital Library Research Laboratory:</span>
+                                <p>• Role: Research Assistant </p>
+                                <p>• Mentor: Dr. Edward Fox</p>
+                                <p>• Project: Integrated Digital Library System for Long Documents and their Elements </p>
+                            </div>
+                            <video class="research-video" controls>
+                                <source src="video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+                    <li class="research-item">
+                        <div>
+                            <span class="title">Virginia Tech Distributed Systems & Storage Laboratory (DSSL):</span>
+                        </div>
+                        <span class="content">
+                            <p>• Role: Research Assistant </p>
+                            <p>• Mentor: Dr. Ali R. Butt </p>
+                            <p>• Project: Optimizing Memory Access in Python</p>
+                            <p>• Achievements: Collaborated to enhance memory performance by leveraging DRAM's high bandwidth and XRAM's low latency. Presented findings at the EuroSys 2024 conference.</p>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="section" id="Service and Activities">
+                <div class="section-header">
+                    <h2>Service and Professional Activities</h2>
+                </div>
+                <div class="activities-content">
+                    <div class="activities-description">
+                        <ul>
+                            <li>
+                                <strong>Motion Sickness Study (2024 Spring):</strong>
+                                <br> Participated in a car simulator study to contribute to motion sickness research.
+                            </li>
+                            <li>
+                                <strong>OpenAI Countering Hate Speech Research (2024 Spring):</strong>
+                                <br> Assisted in developing and testing responses to online hate speech, which enhanced my understanding of web programming.
+                            </li>
+                            <li>
+                                <strong>Virtual Reality Research (2024 Spring):</strong>
+                                <br> Engaged in VR simulations to explore advanced interaction techniques.
+                            </li>
+                            <li>
+                                <strong>Robot Escape Room Research (2024 Spring):</strong>
+                                <br> Collaborated on a human-robot interaction experiment, focusing on decision-making processes.
+                            </li>
+                            <li>
+                                <strong>Teacher Assistant for CS 2104 (2023 Fall):</strong>
+                                <br> Teacher Assistant for CS 2104 (A systems course).
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="gilbert office.png" alt="Office" class="activities-img">
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section" id="Honor and Awards">
+                <div class="section-header">
+                    <h2>Honor and Awards</h2>
+                </div>
+                <ul>
+                    <li><span class="content">• Virginia Tech, Dean's List (2023-2024).</span></li>
+                    <li><span class="content">• Create and Lead Piazza AI Team (2024 Spring - Present).</span></li>
+                    <li><span class="content">• St. Joseph High School, Principal’s Honor Roll (High School Period).</span></li>
+                    <li><span class="content">• St. Joseph High School, High Honors (10th-12th Grade)</span></li>
+                    <li><span class="content">• Founder & Captain, High School Computer Club (2019 Fall – 2021 Spring).</span></li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="section" id="skills">
+                <div class="section-header">
+                    <h2>Skills and Extra Curriculum</h2>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-description">
+                        <ul>
+                            <li>
+                                <strong>Programming & CS Courses:</strong>
+                                <ul>
+                                    <li>CS 2114: Software Design and Data Structures</li>
+                                    <li>CS 3114: Data Structures and Algorithms</li>
+                                    <li>CS 1114: Intro to Software Design</li>
+                                    <li>CS 2505 & CS 2506: Intro to Computer Organization I & II</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Research Methodologies:</strong>
+                                <ul>
+                                    <li>AI integration, memory optimization, human-computer interaction.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Swimming:</strong>
+                                <ul>
+                                    <li>Swim twice a week; open to connecting with others who share this interest.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="swimming.jpg" alt="swimming" class="skills-img">
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="section" id="contact">
+                <div class="section-header">
+                    <h2>Contact</h2>
+                </div>
+                <ul>
+                    <li><span class="title">Address:</span><span class="content">305 N Knollwood Dr., Blacksburg, Virginia 24060</span></li>
+                    <li><span class="title">Phone:</span><span class="content">(540) 824-8501</span></li>
+                    <li><span class="title">Email:</span><span class="content"><a href="mailto:davidz0121@vt.edu">davidz0121@vt.edu</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/david-zhan-15162a31b/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:davidz0121@vt.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2024 David Zhan</p>
+    </footer>
+</body>
+</html>

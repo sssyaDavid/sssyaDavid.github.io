@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        /* Add the CSS changes directly here */
+        /* Styling for the social icons at the top (still in a column) */
         .social-icons {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 20px; /* Add space between the icons */
+            gap: 20px; /* Space between the icons */
             margin-bottom: 10px; /* Adjust the spacing between icons and text */
         }
 
@@ -24,6 +25,25 @@
 
         .social-icons a:hover {
             color: #ccc; /* Change icon color on hover */
+        }
+
+        /* Styling for the footer social icons (in a row) */
+        .footer-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Space between the icons */
+            margin-bottom: 10px; /* Adjust spacing */
+        }
+
+        .footer-icons a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .footer-icons a:hover {
+            color: #ccc;
         }
 
         footer {
@@ -228,7 +248,7 @@
         </div>
     </div>
     <footer>
-        <div class="social-icons">
+        <div class="footer-icons">
             <a href="https://www.facebook.com" target="_blank">
                 <i class="fab fa-facebook"></i>
             </a>
