@@ -53,9 +53,8 @@ nav a:hover {
 
 /* 容器样式 */
 .container {
-    width: 80%;
+    width: auto;
     margin: auto;
-    overflow: hidden;
     padding: 20px 0;
 }
 
