@@ -53,8 +53,9 @@ nav a:hover {
 
 /* 容器样式 */
 .container {
-    width: auto;
+    width: 80%;
     margin: auto;
+    overflow: hidden;
     padding: 20px 0;
 }
 
@@ -216,7 +217,7 @@ footer {
 
 /* 控制文本部分的样式 */
 .skills-description {
-    flex: 1; /* 让文本部分占据剩余的可用空间 */
+    
     margin-right: 20px; /* 给文本和图片之间留出空间 */
     color: #333;
 }
