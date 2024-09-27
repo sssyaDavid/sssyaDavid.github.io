@@ -185,7 +185,7 @@ nav a:hover {
 .section .content {
     flex-basis: 100%;
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .divider {
@@ -241,8 +241,8 @@ footer {
 }
 
 .education-img {
-    width: 30%; /* 设置图片宽度 */
-    height: 30%; /* 保持图片比例 */
+    width: 40%; /* 设置图片宽度 */
+    height: 40%; /* 保持图片比例 */
     margin-left: 20px; /* 添加左边距 */
 }
 
@@ -253,8 +253,8 @@ footer {
     margin-bottom: 20px;
 }
 .video video {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
 }
 
 .activities-content {
@@ -277,7 +277,7 @@ footer {
 }
 
 #contact ul li {
-    margin-bottom: 10px; /* 调整为更小的下边距，默认可能是更大的 */
+    margin-bottom: 20px; /* 调整为更小的下边距，默认可能是更大的 */
     line-height: 1.2; /* 设置较小的行高，让内容更加紧凑 */
 }
 
