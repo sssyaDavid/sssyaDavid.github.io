@@ -128,10 +128,70 @@ nav a:hover {
     margin-left: 20px; /* 左边距 */
 }
 
+/* 详细信息样式 */
+.details {
+    padding: 20px;
+    background-color: #fff;
+    color: #333; /* 设置为黑色字体 */
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+
+.section .right-aligned {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section li {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section .title {
+    flex-basis: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section .content {
+    flex-basis: 100%;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 40px 0;
+}
+
 /* Skills and Extra Curriculum 样式 */
 #skills img {
     width: 30%; /* 根据需要调整图片宽度 */
-    height: auto; /* 保持图片比例 */
+    height: 30%; /* 保持图片比例 */
     border-radius: 10px; /* 可选，增加圆角 */
     display: block;
     margin: auto;
@@ -175,6 +235,17 @@ nav a:hover {
 .skills-description ul li ul li {
     margin-bottom: 5px; /* 子列表项之间的间距 */
     display: block; /* 确保每个子列表项自动换行 */
+}
+
+.video {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.video video {
+    width: 50%;
+    height: 50%;
 }
 
 /* 页脚样式 */
