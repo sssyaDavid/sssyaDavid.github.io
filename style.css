@@ -209,26 +209,6 @@ footer {
     margin: auto;
 }
 
-.skills-content {
-    display: flex;
-    align-items: flex-start; /* 确保图片和文本的顶部对齐 */
-    margin-top: 20px;
-}
-
-/* 控制文本部分的样式 */
-.skills-description {
-    
-    margin-right: 20px; /* 给文本和图片之间留出空间 */
-    color: #333;
-}
-
-.poster-img {
-    width: 30%; /* 根据需要调整图片宽度 */
-    height: 30%; /* 保持图片比例 */
-    border-radius: 10px; /* 可选，增加圆角 */
-    display: block;
-    margin: auto;
-}
 
 /* 容器样式 */
 .education-content {
@@ -252,29 +232,12 @@ footer {
     justify-content: center;
     margin-bottom: 20px;
 }
+
 .video video {
     width: 60%;
     height: 60%;
 }
 
-.activities-content {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-.activities-description {
-    flex: 1;
-    margin-right: 20px;
-    color: #333;
-    text-align: left;
-}
-
-.activities-img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-}
 
 #contact ul li {
     margin-bottom: 20px; /* 调整为更小的下边距，默认可能是更大的 */
@@ -328,4 +291,11 @@ footer.footer-section {
 
 .footer-section .footer-icons a:hover {
     color: #ccc; /* Change icon color on hover */
+}
+
+.swimming-img {
+    width: 100%; /* Adjust the width based on your layout */
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-top: 20px; /* Optional: Add spacing */
 }
