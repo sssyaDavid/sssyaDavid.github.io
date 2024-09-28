@@ -201,12 +201,34 @@ footer {
     color: #fff;
 }
 
-#skills img {
-    width: 30%; /* 根据需要调整图片宽度 */
-    height: 30%; /* 保持图片比例 */
-    border-radius: 10px; /* 可选，增加圆角 */
-    display: block;
-    margin: auto;
+.skills-content {
+    display: flex;
+    align-items: flex-start; /* Aligns content at the top */
+    justify-content: flex-start; /* Aligns content horizontally to the left */
+    margin-top: 20px;
+}
+
+.skills-description ul {
+    list-style-type: none; /* Removes bullet points (optional) */
+    margin: 0; /* Resets default margins */
+    padding: 0; /* Resets default padding */
+}
+
+.skills-description li {
+    margin-bottom: 10px; /* Adds space between list items */
+    text-align: left; /* Ensures text is left aligned */
+}
+
+.skills-description strong {
+    display: block; /* Forces each strong element to occupy its own line */
+    margin-bottom: 5px; /* Adds space below each strong element */
+}
+
+.skills-img {
+    width: 300px; /* Adjust image width */
+    height: auto;
+    margin-left: 20px; /* Adds space between the image and the content */
+    border-radius: 10px; /* Optional: Rounds the image corners */
 }
 
 
