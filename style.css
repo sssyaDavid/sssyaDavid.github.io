@@ -144,6 +144,13 @@ nav a:hover {
 
 .section {
     margin: 20px 0;
+    margin-bottom: 3em; /* 为每个section底部添加3em的外边距，显得更独立 */
+    padding: 20px; /* 为每个section添加内边距，让内容看起来有呼吸感 */
+    background-color: #f9f9f9; /* 使用浅色背景突出段落 */
+    border-radius: 10px; /* 圆角边框使得段落看起来更有层次 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影让段落更有独立感 */
+    margin-bottom: 3em; /* 为段落添加下边距 */
+    padding: 20px; /* 为段落内容添加内边距 */
 }
 
 .section-header {
