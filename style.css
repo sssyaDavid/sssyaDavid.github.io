@@ -240,21 +240,31 @@ footer {
 
 .activities-content {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start; /* Ensures items are aligned at the top */
+    justify-content: flex-start; /* Aligns items horizontally to the left */
     margin-top: 20px;
 }
 
-.activities-description {
-    flex: 1;
-    margin-right: 20px;
-    color: #333;
-    text-align: left;
+.activities-description ul {
+    list-style-type: none; /* Removes bullet points (optional) */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.activities-description li {
+    margin-bottom: 10px; /* Adds space between list items */
+    text-align: left; /* Ensures text is aligned to the left */
+}
+
+.activities-description strong {
+    display: block; /* Forces each strong element to occupy its own line */
+    margin-bottom: 5px; /* Adds space after each strong element */
 }
 
 .activities-img {
-    width: 300px;
+    width: 300px; /* Adjust width as needed */
     height: auto;
-    border-radius: 10px;
+    margin-left: 20px; /* Adds space between image and description */
 }
 
 #contact ul li {
