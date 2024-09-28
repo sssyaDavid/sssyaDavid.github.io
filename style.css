@@ -238,6 +238,24 @@ footer {
     height: 60%;
 }
 
+.activities-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.activities-description {
+    flex: 1;
+    margin-right: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.activities-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
 
 #contact ul li {
     margin-bottom: 20px; /* 调整为更小的下边距，默认可能是更大的 */
@@ -291,11 +309,4 @@ footer.footer-section {
 
 .footer-section .footer-icons a:hover {
     color: #ccc; /* Change icon color on hover */
-}
-
-.swimming-img {
-    width: 100%; /* Adjust the width based on your layout */
-    height: auto;
-    border-radius: 10px; /* Optional: Add rounded corners */
-    margin-top: 20px; /* Optional: Add spacing */
 }
